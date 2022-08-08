@@ -42,7 +42,7 @@ function createBoxes(amount) {
   }
 }
 function destroyBoxes() {
-  boxesBlock.innerHtml = '';
+  boxesBlock.innerHTML = '';
 }
 
 function getRandomHexColor() {
